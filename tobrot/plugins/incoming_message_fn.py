@@ -84,7 +84,7 @@ async def incoming_message_f(client, message):
         LOGGER.info(dl_url)
 
     else:
-        await i_m_sefg.edit("<b>⚠️ Opps ⚠️</b>\n\n <b><i>⊠ Reply with Direct/Torrent Link or File⁉️</i></b>")
+        await i_m_sefg.edit("<b>⚠️ Opps ⚠️</b>\n\n <b><i>❖ Reply with Direct/Torrent Link or File⁉️</i></b>")
         return
     if dl_url is not None:
         current_user_id = message.from_user.id
@@ -170,7 +170,7 @@ async def incoming_youtube_dl_f(client, message):
         yt_dl_pass_word = None
         cf_name = None
     else:
-        await i_m_sefg.edit("<b>⚠️ Opps ⚠️</b>\n\n <b><i>⊠ Reply To YTDL Supported Link.</i></b>")
+        await i_m_sefg.edit("<b>⚠️ Opps ⚠️</b>\n\n <b><i>❖ Reply To YTDL Supported Link.</i></b>")
         return
     if dl_url is not None:
         await i_m_sefg.edit_text("<code>Extracting Links . . . 🔀</code>")
@@ -257,7 +257,7 @@ async def g_clonee(client, message):
 async def rename_tg_file(client, message):
     usr_id = message.from_user.id
     if not message.reply_to_message:
-        await message.reply("<b>⚠️ Oops ⚠️</b>\n\n <b><i>⊠ Reply with Telegram Media (File / Video)⁉️</b>", quote=True)
+        await message.reply("<b>⚠️ Oops ⚠️</b>\n\n <b><i>❖ Reply with Telegram Media (File / Video)⁉️</b>", quote=True)
         return
     if len(message.command) > 1:
         new_name = (
@@ -287,7 +287,7 @@ async def rename_tg_file(client, message):
                 message_id = final_response[key_f_res_se]
                 channel_id = str(message.chat.id)[4:]
                 private_link = f"https://t.me/c/{channel_id}/{message_id}"
-                message_to_send += "👉 <a href='"
+                message_to_send += "💙<a href='"
                 message_to_send += private_link
                 message_to_send += "'>"
                 message_to_send += local_file_name
@@ -298,7 +298,7 @@ async def rename_tg_file(client, message):
                     f"<a href='tg://user?id={usr_id}'><i>🗃 Your Uploaded Files !!</i></a>\n\n"
                 )
                 message_to_send = mention_req_user + message_to_send
-                message_to_send = message_to_send + "\n\n" + "<b>#uploads</b>"
+                message_to_send = message_to_send + "\n\n" + "<b>@msgsurya</b>"
             else:
                 message_to_send = "<i>FAILED</i> to upload files. 😞😞"
             await message.reply_text(
