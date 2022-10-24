@@ -217,7 +217,7 @@ async def dl_to_local_fn(client, message):
     '''Download a tg file to bot's local storage'''
     usr_id = message.from_user.id
     if not message.reply_to_message:
-        await message.reply("<b>⚠️ Oops ⚠️</b>\n\n <b><i>⊠ Reply with Telegram Media (File / Video)⁉️</b>", quote=True)
+        await message.reply("<b>⚠️ Oops ⚠️</b>\n\n <b><i>❖ Reply with Telegram Media (File / Video)⁉️</b>", quote=True)
         return
     if len(message.command) > 1:
         new_name = (
