@@ -1,8 +1,0 @@
-[msg creations tamil]
-type = drive
-client_id = 6991034395-bpqtjc9mcuih9fjrp65ajdcbpsn53jo7.apps.googleusercontent.com
-client_secret = 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
-scope = drive
-root_folder_id = 0AAp_B2BqYpWVUk9PVA
-token = {"access_token":"ya29.a0ARrdaM8gGsQmDbXWPa8klHb2e1m8T7VnJ8sPUCYMGe8HCw5NWNTq05nrN-dYyhFJ_Uyvc2QqM8g1DRpQI-bpIUYFKytardG3jhFpztDvHOZBUqh9paPTyrp6g_AAjRd4rgA1LFSO56gtj-5pSo6KiUxLws8M","token_type":"Bearer","refresh_token":"1//0gdsu-7WGtHIiCgYIARAAGBASNwF-L9Irld0MV210l6U0bsLTUVZ93Q6i4K4cGCz80lLKf_0LUpbfWJBCSx3tYwBzNcP97WHEUtQ","expiry":"2022-06-08T05:35:19.7589726-07:00"}
-team_drive =
