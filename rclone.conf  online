@@ -1,0 +1,8 @@
+[online watch]
+type = drive
+client_id = 769158937439-692d6o8hlcisdtmii1letp7jsohhh9si.apps.googleusercontent.com
+client_secret = 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
+scope = drive
+root_folder_id = 0ADXN6EvH-l-aUk9PVA
+token = {"access_token":"ya29.a0ARrdaM_Zp2Md4d3PpuUHPyjLea1lr_whGtESyHSdDhT93ChpwQH2L4oSsb1lkvYsxeFsS7dXN6O4VlA8-wiKwGmxigvTZb1CUU3LMISS73EgK9B3dEZVkt2qmpYljaByLzT2cFSC_vPJks09tv8gMLYIDj5l","token_type":"Bearer","refresh_token":"1//0g21BKKvUdpduCgYIARAAGBASNwF-L9IrO7WyfZNkF3suQw17c5d66vxWN9UiDt-ZehW17flxjbeI7QaVRdmz-_WRwqfFdIfmLKs","expiry":"2022-06-08T05:45:43.2458632-07:00"}
+team_drive =
